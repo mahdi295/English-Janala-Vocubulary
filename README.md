@@ -1,6 +1,23 @@
 # ENGLISH <img width="25px" src="./assets/logo.png" /> JANALA
 
 ---
+English Janala is a web-based vocabulary learning platform built with HTML, Tailwind CSS, DaisyUI, and JavaScript. It connects to the Programming Hero Open API to dynamically load lessons, words, and vocabulary details. The goal is to make learning English interactive and engaging with features like lesson-based word cards, pronunciation, and saved vocabularies. 
+
+# Features Dynamic Lessons: 
+1. Fetch and display lessons from API endpoints.  
+2. Vocabulary Cards: Show word, meaning, and pronunciation with action buttons.  
+3. Interactive Icons: Info icon opens a modal with word details; volume icon plays pronunciation using the SpeechSynthesis API.  
+4. Active Lesson Highlighting: Differentiate the selected lesson button.  
+5. Search Functionality: Search words dynamically and reset active lesson.  
+6. Saved Words: Heart icon lets users save words to a separate section.  
+7. Loading Spinner: Displayed while fetching data from APIs.  
+8. Error Handling: Gracefully handle missing or invalid data.  
+
+# Tech Stack 
+Frontend: HTML, Tailwind CSS, DaisyUI  
+Icons: Font Awesome  
+JavaScript: Fetch API, DOM manipulation, SpeechSynthesis for pronunciation  API: Programming Hero Open API
+---
 
 ## ⚡ API Endpoints
 
